@@ -11,34 +11,42 @@ namespace StockAnalysis.excelReader
     /// </summary>
     class JPNetBuyData
     {
-        public const int rowDiffNetBuy = 6;
-        public const int colDiffNetBuy = 3;
-        public Dealer dealer;
-        public InvestmentTrust investmentTrust;
-        public ForeignInvestor foreignInvestor;
+        public const int ROW_DIFF_NET_BUY = 6;
+        public const int COL_DIFF_NET_BUY = 3;
+        public Dealer dealer = new Dealer();
+        public InvestmentTrust investmentTrust = new InvestmentTrust();
+        public ForeignInvestor foreignInvestor = new ForeignInvestor();
+        public TotalSum totalSum = new TotalSum();
     }
 
     class JuristicPersonData
     {
-        public long buyIn;
-        public long sellOut;
-        public long orderDiff;
+        public Double buyIn;
+        public Double sellOut;
+        public Double orderDiff;
     }
     class Dealer : JuristicPersonData
     {
-        public const int rowDiffNetBuy = 2;
-        public const int colDiffNetBuy = 3;
+        public const int ROW_DIFF_NET_BUY = 2;
+        public const int ROW_DIFF_NET_BUY2 = 3;
+        public const int COL_DIFF_NET_BUY = 3;
     }
     class InvestmentTrust : JuristicPersonData
     {
-        public const int rowDiffNetBuy = 4;
-        public const int colDiffNetBuy = 3;
+        public const int ROW_DIFF_NET_BUY = 4;
+        public const int COL_DIFF_NET_BUY = 3;
     }
     class ForeignInvestor : JuristicPersonData
     {
-        public const int rowDiffNetBuy = 5;
-        public const int colDiffNetBuy = 3;
+        public const int ROW_DIFF_NET_BUY = 5;
+        public const int COL_DIFF_NET_BUY = 3;
     }
-   
-    
+
+    class TotalSum : JuristicPersonData
+    {
+        public const int ROW_DIFF_NET_BUY = 6;
+        public const int COL_DIFF_NET_BUY = 3;
+    }
+
+
 }

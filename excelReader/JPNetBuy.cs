@@ -19,12 +19,12 @@ namespace StockAnalysis.excelReader
     {
         // net buy excel
         private IWorkbook workbook;
-
         private JPNetBuyData jpNetBuyData;
+
 
         public JPNetBuy(String dirNetBuy)
         {
-            jpNetBuyData = new JPNetBuyData();
+            
             using (FileStream file = new FileStream(dirNetBuy, FileMode.Open, FileAccess.Read))
             {
                 workbook = new XSSFWorkbook(dirNetBuy);
@@ -35,7 +35,19 @@ namespace StockAnalysis.excelReader
         private void readData()
         {
             ISheet sheet = workbook.GetSheetAt(0);
-            Double a = sheet.GetRow(2).GetCell(3).NumericCellValue;
+            jpNetBuyData = new JPNetBuyData();
+
+            //Dealer
+            jpNetBuyData.dealer.orderDiff = sheet.GetRow(Dealer.ROW_DIFF_NET_BUY).GetCell(Dealer.COL_DIFF_NET_BUY).NumericCellValue
+                                                                    + sheet.GetRow(Dealer.ROW_DIFF_NET_BUY2).GetCell(Dealer.COL_DIFF_NET_BUY).NumericCellValue;
+            //InvestmentTrust          
+            jpNetBuyData.dealer.buyIn = sheet.GetRow(InvestmentTrust.ROW_DIFF_NET_BUY).GetCell(InvestmentTrust.COL_DIFF_NET_BUY).NumericCellValue;
+
+            //ForeignInvestor
+            jpNetBuyData.foreignInvestor.orderDiff = sheet.GetRow(ForeignInvestor.ROW_DIFF_NET_BUY).GetCell(ForeignInvestor.COL_DIFF_NET_BUY).NumericCellValue;
+
+            // Sum
+            jpNetBuyData.totalSum.orderDiff = sheet.GetRow(TotalSum.ROW_DIFF_NET_BUY).GetCell(TotalSum.COL_DIFF_NET_BUY).NumericCellValue;
         }
 
 
