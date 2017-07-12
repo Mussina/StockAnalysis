@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace StockAnalysis.excelReader
 {
-    class TradeRecord
+     public class TradeRecord
     {
         private IWorkbook tradeRecordbook;
         public TradeRecord(String path)
@@ -19,5 +19,19 @@ namespace StockAnalysis.excelReader
                 tradeRecordbook = new XSSFWorkbook(file);
             }
         }
+
+        public static String getDate()
+        {
+            DateTime dt = DateTime.Now;
+            return dt.ToShortDateString();
+        }
+        public static int getDiffDate(String earlyDay, String laterDay)
+        {
+            DateTime dt1 = Convert.ToDateTime(earlyDay);
+            DateTime dt2 = Convert.ToDateTime(laterDay);
+            TimeSpan span = dt2.Subtract(dt1);
+            return span.Days ;
+        }
+
     }
 }

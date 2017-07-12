@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="excelReader\JPNetBuyData.cs" />
     <Compile Include="excelReader\JPNetBuy.cs" />
+    <Compile Include="excelReader\TradeRecord.cs" />
     <Compile Include="excelWriter\JPNetBuyAnalysis.cs" />
     <Compile Include="StockAnalysisForm.cs">
       <SubType>Form</SubType>
