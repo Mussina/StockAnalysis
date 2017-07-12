@@ -1,6 +1,6 @@
 ﻿namespace StockAnalysis
 {
-    partial class Form1
+    partial class StockAnalysisForm
     {
         /// <summary>
         /// 設計工具所需的變數。
@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.Text = "StockAnalysis";
         }
 
         #endregion

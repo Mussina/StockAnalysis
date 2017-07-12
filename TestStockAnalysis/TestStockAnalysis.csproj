@@ -57,7 +57,7 @@
     <Compile Include="UnitTest2.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\StockAnalysis\StockAnalysis.csproj">
+    <ProjectReference Include="..\StockAnalysis.csproj">
       <Project>{fa142f03-be8a-4eb9-a288-6365c438f565}</Project>
       <Name>StockAnalysis</Name>
     </ProjectReference>

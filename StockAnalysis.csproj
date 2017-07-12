@@ -63,11 +63,12 @@
   <ItemGroup>
     <Compile Include="excelReader\JPNetBuyData.cs" />
     <Compile Include="excelReader\JPNetBuy.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="excelWriter\JPNetBuyAnalysis.cs" />
+    <Compile Include="StockAnalysisForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="StockAnalysisForm.Designer.cs">
+      <DependentUpon>StockAnalysisForm.cs</DependentUpon>
     </Compile>
     <Compile Include="StockAnalysis.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

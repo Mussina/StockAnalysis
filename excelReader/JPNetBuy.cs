@@ -27,7 +27,7 @@ namespace StockAnalysis.excelReader
             
             using (FileStream file = new FileStream(dirNetBuy, FileMode.Open, FileAccess.Read))
             {
-                workbook = new XSSFWorkbook(dirNetBuy);
+                workbook = new XSSFWorkbook(file);
             }
             readData();
         }
