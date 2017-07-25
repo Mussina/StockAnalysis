@@ -41,7 +41,7 @@ namespace StockAnalysis.excelReader
             jpNetBuyData.dealer.orderDiff = sheet.GetRow(Dealer.ROW_DIFF_NET_BUY).GetCell(Dealer.COL_DIFF_NET_BUY).NumericCellValue
                                                                     + sheet.GetRow(Dealer.ROW_DIFF_NET_BUY2).GetCell(Dealer.COL_DIFF_NET_BUY).NumericCellValue;
             //InvestmentTrust          
-            jpNetBuyData.dealer.buyIn = sheet.GetRow(InvestmentTrust.ROW_DIFF_NET_BUY).GetCell(InvestmentTrust.COL_DIFF_NET_BUY).NumericCellValue;
+            jpNetBuyData.investmentTrust.orderDiff = sheet.GetRow(InvestmentTrust.ROW_DIFF_NET_BUY).GetCell(InvestmentTrust.COL_DIFF_NET_BUY).NumericCellValue;
 
             //ForeignInvestor
             jpNetBuyData.foreignInvestor.orderDiff = sheet.GetRow(ForeignInvestor.ROW_DIFF_NET_BUY).GetCell(ForeignInvestor.COL_DIFF_NET_BUY).NumericCellValue;
