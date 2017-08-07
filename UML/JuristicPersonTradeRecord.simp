@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="11.00" multi-file="no" uid="simp2c8e0ea0d21e4e26bb2bc1b23e14bd09">
+  <meta>
+    <name>JuristicPersonTradeRecord</name>
+    <authors> DHLIN</authors>
+    <description>Architecture of juristic person's net buy.</description>
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="class" type="UmlClass" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="" type="DrawingItem" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="class" type="UmlClass" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="universal-connector" type="UniversalConnector" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="generalization" type="UmlGeneralization" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="shape" type="AbstractShapeItem" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="" type="AbstractElementGroup" />
+        <value>39</value>
+      </counter>
+      <counter>
+        <item-type type-id="comment" type="UmlComment" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="comment-connector" type="UmlCommentConnector" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="UmlAssociation" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.AttributeField</type>
+        <value>15</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>11</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-1481cf8157024b7fabdef8e367c6f2d0" name="" task-id-sequence="0">
+    <working-schedule uid="ws-14c6b857c18c4705b1cf60d19b63dec5" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="Pad4d810d5aea4f5088eae2b5c09300f5">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-d50f6dc1d988463096ca44f49e5f175b" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-544c8c572d0f478dbbf282c8274e3b1a" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="string" tid="" name="string" description="" />
+      <type id="Class:di382232405354345961" tid="" name="Dealer/InvestmentTrust/ForeignInvestor/TotalSum" description="" class-ref="di382232405354345961" />
+      <type id="IWorkbook" tid="" name="IWorkbook" description="" />
+      <type id="Class:di244297703493457493" tid="" name="JPNetBuyData" description="" class-ref="di244297703493457493" />
+    </custom-types>
+  </types>
+  <items>
+    <item id="di773581615577765772" cid="ELEM034" type="group" name="Group" style-class="" visibility="package" creation-date="08/07/2017 22:21:36">
+      <style class="default" />
+    </item>
+    <item id="di666907592673895713" cid="ELEM014" type="group" name="Group" style-class="" visibility="package" creation-date="08/07/2017 22:09:19">
+      <style class="default" />
+    </item>
+  </items>
+  <models>
+    <model id="pdf56ba75e28f4615bb6e91db4906ce78_381068198" name="Model 1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>08/07/2017 21:31:50</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p6dc1d782d2c04395b95c95dad578f60c_823225850" name="ClassDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-special-indicators="false" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false" view-location="-254,-27">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>08/07/2017 21:31:50</creation-date>
+          <change-date>08/07/2017 22:21:36</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di811031672669057421" cid="C001" type="class" name="JuristicPersonData" style-class="" is-abstract="true" visibility="package" change-tracking-state="added" creator="Pad4d810d5aea4f5088eae2b5c09300f5" creation-date="08/07/2017 21:39:54">
+            <style class="default" />
+            <attributes>
+              <attribute id="acf65c161e99844a8a152fc76276fb182200" cid="ELEM001" name="buyIn" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="public">
+                <style class="default" />
+              </attribute>
+              <attribute id="a3456ab3c991e45099aeba7901936e5be647" cid="ELEM002" name="sellOut" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="public">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-9a5f8b2a-5a55-42dd-84cc-5c05bc610bea" />
+                </source-codes>
+              </attribute>
+              <attribute id="a366e138106044ba9b55b026424f54861569" cid="ELEM003" name="orderDiff" creation-date="01/01/0001 00:00:00" type="String" type-id="Uml.String" visibility="public">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-e0cb1457-91ef-4e31-9ba6-5e1ba1d36bcc" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="di382232405354345961" cid="C002" type="class" name="Dealer/InvestmentTrust/ForeignInvestor/TotalSum" style-class="" visibility="package" change-tracking-state="added" creator="Pad4d810d5aea4f5088eae2b5c09300f5" creation-date="08/07/2017 21:46:22">
+            <style class="default" />
+            <attributes>
+              <attribute id="a0f7226e667934e319cbbcab210eab660842" cid="ELEM004" name="ROW_DIFF_NET_BUY" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="public">
+                <style class="default" />
+              </attribute>
+              <attribute id="a490b2448653449158e6d50e4a90d7285372" cid="ELEM005" name="COL_DIFF_NET_BUY" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="public" default-value="3">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-e138b0f6-792f-458b-b57e-614e2052218a" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="di862849778458795204" cid="GNR001" type="generalization" name="" style-class="" visibility="package" change-tracking-state="added" creator="Pad4d810d5aea4f5088eae2b5c09300f5" creation-date="08/07/2017 21:53:27" from="di382232405354345961" to="di811031672669057421">
+            <style class="default" />
+          </item>
+          <item id="di244297703493457493" cid="C003" type="class" name="JPNetBuyData" style-class="" visibility="package" change-tracking-state="added" creator="Pad4d810d5aea4f5088eae2b5c09300f5" creation-date="08/07/2017 21:54:33">
+            <style class="default" />
+            <attributes>
+              <attribute id="a3f352e399b6c42fcb114257dda49d6a9960" cid="ELEM006" name="ROW_DIFF_NET_BUY" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="public" read-only="true" default-value="6">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-9c296f88-3c7e-4f1a-9251-c876f1ed7aaa" />
+                </source-codes>
+              </attribute>
+              <attribute id="a84dae15c0cac4671b47992990fd0c45a762" cid="ELEM007" name="COL_DIFF_NET_BUY" creation-date="01/01/0001 00:00:00" type="Integer" type-id="Uml.Integer" visibility="public" read-only="true" default-value="3">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-843864f6-dc2c-4167-b676-6ff83866ddb1" />
+                </source-codes>
+              </attribute>
+              <attribute id="abc557727ad754ac2a600a58829d516c2701" cid="ELEM008" name="dealer" creation-date="01/01/0001 00:00:00" type="Dealer/InvestmentTrust/ForeignInvestor/TotalSum" type-id="Class:di382232405354345961" visibility="public">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-76dc9e75-1135-412d-852c-11af847f7e01" />
+                </source-codes>
+              </attribute>
+              <attribute id="acad9cbe9119240619a545a407fe46095185" cid="ELEM009" name="investmentTrust" creation-date="01/01/0001 00:00:00" type="Dealer/InvestmentTrust/ForeignInvestor/TotalSum" type-id="Class:di382232405354345961" visibility="public">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-9eb3fd1f-fc55-4c0c-88ad-a07d3854dc7e" />
+                </source-codes>
+              </attribute>
+              <attribute id="ae3196614ec19441b887b0e76bdd579cf717" cid="ELEM011" name="foreignInvestor" creation-date="01/01/0001 00:00:00" type="Dealer/InvestmentTrust/ForeignInvestor/TotalSum" type-id="Class:di382232405354345961" visibility="public">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-7b8d0244-bfd9-4e61-ad1a-04f6a7198201" />
+                </source-codes>
+              </attribute>
+              <attribute id="a65bf184aa8fd4908a4ff930e976503f815" cid="ELEM012" name="totalSum" creation-date="01/01/0001 00:00:00" type="Dealer/InvestmentTrust/ForeignInvestor/TotalSum" type-id="Class:di382232405354345961" visibility="public">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-7d0051c1-b461-470b-8aa9-37bff97ffed6" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="di472190303723378359" cid="C004" type="class" name="JPNetBuy" style-class="" visibility="package" change-tracking-state="added" creation-date="08/07/2017 22:16:27">
+            <style class="default" />
+            <attributes>
+              <attribute id="a6312dac7ee6d479cb5ac117f442a1c2e114" cid="ELEM013" name="workbook" creation-date="01/01/0001 00:00:00" type="IWorkbook" type-id="IWorkbook" visibility="private">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-7a94d634-595b-4b33-8bb8-f75da590948b" />
+                </source-codes>
+              </attribute>
+              <attribute id="a8522706d917144efb7d60d517894c230699" cid="ELEM014" name="jpNetBuyData" creation-date="01/01/0001 00:00:00" type="JPNetBuyData" type-id="Class:di244297703493457493" visibility="private">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" uid="scs-60fc108d-611c-45c9-a795-f324e8c1255c" />
+                </source-codes>
+              </attribute>
+            </attributes>
+            <operations>
+              <operation id="oab0609b9dd70496f924519764de9e489159" cid="ELEM010" name="readData" creation-date="01/01/0001 00:00:00" type="" type-id="" visibility="private">
+                <style class="default" />
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="di825656345998318594" cid="REL001" type="relationship" name="jpNetBuyData: " style-class="" visibility="package" change-tracking-state="added" creation-date="08/07/2017 22:20:28" from="di244297703493457493" to="di472190303723378359">
+            <style class="default" />
+            <relation from="di244297703493457493" to="di472190303723378359">
+              <start-role id="umlar-13c52fc3-7c80-4d44-8a51-85d3f1bdc8d3" name="" navigability="" association-type="composition" visibility="private" />
+              <end-role id="umlar-35e1b9e3-883f-42f1-b81d-4b3eb4737bcf" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+        </abstract-items>
+        <layer id="e1aa9d78a673406e94bd4e79769276d0" name="Default" visible="true" enabled="true" locked="false">
+          <item id="di777697032159139908" iid="5a02d88f19eb4793ad44132ad5aabb38" name="Element1" creation-date="08/07/2017 22:06:36" order-index="4" type="drawing-shape">
+            <layout ax="-180" ay="3" awidth="858" aheight="512" x="-180" y="3" width="858" height="512" />
+            <drawing-shape type="Rectangle">
+              <text>Excel Reader</text>
+            </drawing-shape>
+            <style style-name="" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FF000000" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;16.2;B" horizontal-alignment="left" vertical-alignment="top" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;16.2;B" horizontal-alignment="left" vertical-alignment="top" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;16.2;B" horizontal-alignment="left" vertical-alignment="top" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;16.2;B" horizontal-alignment="left" vertical-alignment="top" shadow="false" />
+              <background type="forward-diagonal" color="#FFFADBA5" color2="#FFFADBA5" />
+              <border color="#FF2B508B" width="5" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+          </item>
+          <item id="di666907592673895713" iid="b4325936402c40d993462094e5aa8467" creation-date="08/07/2017 22:09:19" order-index="5" type="group">
+            <layout ax="-145.5" ay="77.5" awidth="231" aheight="299" x="-145.5" y="77.5" width="231" height="299" />
+            <group-items>
+              <item id="di811031672669057421" iid="e8cd9660202846d5a739c7dda2b7976a" creation-date="08/07/2017 21:39:54" order-index="0" type="entity">
+                <layout ax="-121" ay="77.5" awidth="182" aheight="116" x="-121" y="77.5" width="182" height="116" />
+                <class />
+              </item>
+              <item id="di382232405354345961" iid="70b63ae66511440caf994f31f780031a" creation-date="08/07/2017 21:46:22" order-index="1" type="entity">
+                <layout ax="-145.5" ay="260.5" awidth="231" aheight="116" x="-145.5" y="260.5" width="231" height="116" />
+                <class />
+              </item>
+              <item id="di862849778458795204" iid="923d7ee79c7f4afd8a455b37a465cdc3" creation-date="08/07/2017 21:53:27" order-index="2" type="relation">
+                <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-31" y1="260" x2="-30" y2="194" start-border-pos="0.124458871781826" end-border-pos="0.625" name-position="0,0">
+                  <points>
+                    <point x="-31" y="260" />
+                    <point x="-30" y="194" />
+                  </points>
+                </layout>
+                <relation from="di382232405354345961" from-iid="70b63ae66511440caf994f31f780031a" to="di811031672669057421" to-iid="e8cd9660202846d5a739c7dda2b7976a" />
+              </item>
+            </group-items>
+          </item>
+          <item id="di773581615577765772" iid="93896877166d4cdebdf1b66d85fb235b" creation-date="08/07/2017 22:21:36" order-index="8" type="group">
+            <layout ax="120" ay="29" awidth="322" aheight="413" x="120" y="29" width="322" height="413" />
+            <group-items>
+              <item id="di244297703493457493" iid="b5589aaa2cdf4768a0bc79574fbab80a" creation-date="08/07/2017 21:54:33" order-index="3" type="entity">
+                <layout ax="120" ay="251" awidth="322" aheight="191" x="120" y="251" width="322" height="191" />
+                <class />
+              </item>
+              <item id="di472190303723378359" iid="c5677ea1df92418ca5dc1274d2a5cd39" creation-date="08/07/2017 22:16:27" order-index="6" type="entity">
+                <layout ax="152" ay="29" awidth="231" aheight="160" x="152" y="29" width="231" height="160" />
+                <class />
+              </item>
+              <item id="di825656345998318594" iid="2d35cab7c6af47d3989f1ff354d82f39" creation-date="08/07/2017 22:20:28" order-index="7" type="relation">
+                <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" auto-path="" x1="276" y1="251" x2="272" y2="189" start-border-pos="0.120954217377657" end-border-pos="0.619709758015422" name-position="0,0">
+                  <points>
+                    <point x="276" y="251" />
+                    <point x="272" y="189" />
+                  </points>
+                </layout>
+                <relation from="di244297703493457493" from-iid="b5589aaa2cdf4768a0bc79574fbab80a" to="di472190303723378359" to-iid="c5677ea1df92418ca5dc1274d2a5cd39" />
+              </item>
+            </group-items>
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
